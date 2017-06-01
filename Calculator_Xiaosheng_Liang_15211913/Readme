@@ -1,0 +1,7 @@
+Assignment 2 – TipCalc
+(revision 1.1)
+
+Objectives: This assignment requires very little coding. You will use the current version
+of Xcode to create a project and the built-in Interface Builder tool to construct a simple
+user interface for a tip calculator. As you enter each digit of the bill, your app will update
+the rounded tip amount for a given % tip set by moving a slider. 
