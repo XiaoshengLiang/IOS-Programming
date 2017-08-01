@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4619178E1EAA186700F1E021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619178D1EAA186700F1E021 /* AppDelegate.swift */; };
+		461917901EAA186700F1E021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619178F1EAA186700F1E021 /* ViewController.swift */; };
+		461917961EAA186700F1E021 /* Chatty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 461917941EAA186700F1E021 /* Chatty.xcdatamodeld */; };
+		461917981EAA186800F1E021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461917971EAA186800F1E021 /* Assets.xcassets */; };
+		4619179B1EAA186800F1E021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461917991EAA186800F1E021 /* LaunchScreen.storyboard */; };
+		461917A31EAB90AF00F1E021 /* FriendControllerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917A21EAB90AF00F1E021 /* FriendControllerHelper.swift */; };
+		461917E41EABAEE200F1E021 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917E01EABAEE200F1E021 /* Friend+CoreDataClass.swift */; };
+		461917E51EABAEE200F1E021 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917E11EABAEE200F1E021 /* Friend+CoreDataProperties.swift */; };
+		461917E61EABAEE200F1E021 /* Message+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917E21EABAEE200F1E021 /* Message+CoreDataClass.swift */; };
+		461917E71EABAEE200F1E021 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917E31EABAEE200F1E021 /* Message+CoreDataProperties.swift */; };
+		461917E91EABDAC000F1E021 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917E81EABDABF00F1E021 /* ChatLogController.swift */; };
+		461917EB1EAC0E3500F1E021 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461917EA1EAC0E3500F1E021 /* CustomTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4619178A1EAA186700F1E021 /* Chatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4619178D1EAA186700F1E021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4619178F1EAA186700F1E021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		461917951EAA186700F1E021 /* Chatty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chatty.xcdatamodel; sourceTree = "<group>"; };
+		461917971EAA186800F1E021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4619179A1EAA186800F1E021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4619179C1EAA186800F1E021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461917A21EAB90AF00F1E021 /* FriendControllerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendControllerHelper.swift; path = ../FriendControllerHelper.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		461917E01EABAEE200F1E021 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		461917E11EABAEE200F1E021 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		461917E21EABAEE200F1E021 /* Message+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataClass.swift"; sourceTree = "<group>"; };
+		461917E31EABAEE200F1E021 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		461917E81EABDABF00F1E021 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		461917EA1EAC0E3500F1E021 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461917871EAA186700F1E021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461917811EAA186700F1E021 = {
+			isa = PBXGroup;
+			children = (
+				4619178C1EAA186700F1E021 /* Chatty */,
+				4619178B1EAA186700F1E021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4619178B1EAA186700F1E021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4619178A1EAA186700F1E021 /* Chatty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4619178C1EAA186700F1E021 /* Chatty */ = {
+			isa = PBXGroup;
+			children = (
+				461917E01EABAEE200F1E021 /* Friend+CoreDataClass.swift */,
+				461917E11EABAEE200F1E021 /* Friend+CoreDataProperties.swift */,
+				461917E21EABAEE200F1E021 /* Message+CoreDataClass.swift */,
+				461917E31EABAEE200F1E021 /* Message+CoreDataProperties.swift */,
+				4619178D1EAA186700F1E021 /* AppDelegate.swift */,
+				461917EA1EAC0E3500F1E021 /* CustomTabBarController.swift */,
+				461917A21EAB90AF00F1E021 /* FriendControllerHelper.swift */,
+				461917E81EABDABF00F1E021 /* ChatLogController.swift */,
+				4619178F1EAA186700F1E021 /* ViewController.swift */,
+				461917971EAA186800F1E021 /* Assets.xcassets */,
+				461917991EAA186800F1E021 /* LaunchScreen.storyboard */,
+				4619179C1EAA186800F1E021 /* Info.plist */,
+				461917941EAA186700F1E021 /* Chatty.xcdatamodeld */,
+			);
+			path = Chatty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461917891EAA186700F1E021 /* Chatty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4619179F1EAA186800F1E021 /* Build configuration list for PBXNativeTarget "Chatty" */;
+			buildPhases = (
+				461917861EAA186700F1E021 /* Sources */,
+				461917871EAA186700F1E021 /* Frameworks */,
+				461917881EAA186700F1E021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatty;
+			productName = Chatty;
+			productReference = 4619178A1EAA186700F1E021 /* Chatty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461917821EAA186700F1E021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LiangXiaosheng;
+				TargetAttributes = {
+					461917891EAA186700F1E021 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 461917851EAA186700F1E021 /* Build configuration list for PBXProject "Chatty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461917811EAA186700F1E021;
+			productRefGroup = 4619178B1EAA186700F1E021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461917891EAA186700F1E021 /* Chatty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461917881EAA186700F1E021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4619179B1EAA186800F1E021 /* LaunchScreen.storyboard in Resources */,
+				461917981EAA186800F1E021 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461917861EAA186700F1E021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461917E91EABDAC000F1E021 /* ChatLogController.swift in Sources */,
+				461917901EAA186700F1E021 /* ViewController.swift in Sources */,
+				461917EB1EAC0E3500F1E021 /* CustomTabBarController.swift in Sources */,
+				461917E41EABAEE200F1E021 /* Friend+CoreDataClass.swift in Sources */,
+				461917961EAA186700F1E021 /* Chatty.xcdatamodeld in Sources */,
+				4619178E1EAA186700F1E021 /* AppDelegate.swift in Sources */,
+				461917A31EAB90AF00F1E021 /* FriendControllerHelper.swift in Sources */,
+				461917E51EABAEE200F1E021 /* Friend+CoreDataProperties.swift in Sources */,
+				461917E71EABAEE200F1E021 /* Message+CoreDataProperties.swift in Sources */,
+				461917E61EABAEE200F1E021 /* Message+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		461917991EAA186800F1E021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4619179A1EAA186800F1E021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4619179D1EAA186800F1E021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4619179E1EAA186800F1E021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461917A01EAA186800F1E021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chatty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.Chatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		461917A11EAA186800F1E021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chatty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.Chatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461917851EAA186700F1E021 /* Build configuration list for PBXProject "Chatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4619179D1EAA186800F1E021 /* Debug */,
+				4619179E1EAA186800F1E021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4619179F1EAA186800F1E021 /* Build configuration list for PBXNativeTarget "Chatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461917A01EAA186800F1E021 /* Debug */,
+				461917A11EAA186800F1E021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		461917941EAA186700F1E021 /* Chatty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				461917951EAA186700F1E021 /* Chatty.xcdatamodel */,
+			);
+			currentVersion = 461917951EAA186700F1E021 /* Chatty.xcdatamodel */;
+			path = Chatty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 461917821EAA186700F1E021 /* Project object */;
+}
